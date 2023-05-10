@@ -11,7 +11,18 @@
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
+                        <StackPanel>
+                            <TextBlock Text="Login"
+                                       Margin="10"
+                                       FontSize="24"/>
+                            <Button Content="Login"
+                                    Margin="10"
+                                    Padding="8 4 8 4"
+                                    HorizontalContentAlignment="Left"
+                                    Command="{Binding LoginCommand}"/>
+                        </StackPanel>
                     </Border>
+
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

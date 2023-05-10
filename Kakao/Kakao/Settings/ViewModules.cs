@@ -1,4 +1,5 @@
 ﻿using Jamesnet.Wpf.Controls;
+using Kakao.Friends.UI.Views;
 using Kakao.Login.UI.Views;
 using Prism.Ioc;
 using Prism.Modularity;
@@ -23,6 +24,7 @@ namespace Kakao.Settings
             // 등록하는 방법에는 RegisterSingleton, RegisterInstance 두가지 방법이 있는데
             // 싱글톤의 경우에는 사용할때 생성되기만 Instance는 이곳에 선언과 함께 생성
             containerRegistry.RegisterSingleton<IViewable, LoginContent>("LoginContent");
+            containerRegistry.RegisterSingleton<IViewable, FriendsContent>("FriendsContent");
         }
     }
 }
