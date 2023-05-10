@@ -1,33 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {
-      "Kakao.Forms/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Kakao.Forms.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Kakao.Forms.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      }
-    }
+    "net7.0-windows7.0": {}
   },
-  "libraries": {
-    "Kakao.Forms/1.0.0": {
-      "type": "project",
-      "path": "../Kakao.Forms/Kakao.Forms.csproj",
-      "msbuildProject": "../Kakao.Forms/Kakao.Forms.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": [
-      "Kakao.Forms >= 1.0.0"
-    ]
+    "net7.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\JK\\.nuget\\packages\\": {}
@@ -35,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\KakaoTalk\\Kakao\\Kakao\\Kakao.csproj",
-      "projectName": "Kakao",
-      "projectPath": "D:\\GitHub\\KakaoTalk\\Kakao\\Kakao\\Kakao.csproj",
+      "projectUniqueName": "D:\\GitHub\\KakaoTalk\\Kakao\\Kakao.Forms\\Kakao.Forms.csproj",
+      "projectName": "Kakao.Forms",
+      "projectPath": "D:\\GitHub\\KakaoTalk\\Kakao\\Kakao.Forms\\Kakao.Forms.csproj",
       "packagesPath": "C:\\Users\\JK\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\KakaoTalk\\Kakao\\Kakao\\obj\\",
+      "outputPath": "D:\\GitHub\\KakaoTalk\\Kakao\\Kakao.Forms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JK\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,11 +33,7 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {
-            "D:\\GitHub\\KakaoTalk\\Kakao\\Kakao.Forms\\Kakao.Forms.csproj": {
-              "projectPath": "D:\\GitHub\\KakaoTalk\\Kakao\\Kakao.Forms\\Kakao.Forms.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

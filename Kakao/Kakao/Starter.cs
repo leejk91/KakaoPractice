@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Kakao
 {
@@ -11,7 +7,8 @@ namespace Kakao
         [STAThread]
         private static void Main(string[] args)
         {
-            new App().Run();
+            // Run이 Void 타입이 아니기 떄문에 _를 앞에 붙여 무시 처리
+            _ = new App().Run();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kakao.Forms.UI.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Kakao
         {
             base.OnStartup(e);
 
-            Window window = new();
+            KakaoWindow window = new();
             window.Show();
         }
     }
