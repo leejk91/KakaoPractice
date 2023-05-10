@@ -12,6 +12,7 @@ namespace Kakao
             _ = new App()
                 .AddInversionModule<ViewModules>()
                 .AddInversionModule<DirectModules>()
+                .AddWireDataContext<WireDataContext>()
                 .Run();
         }
     }
