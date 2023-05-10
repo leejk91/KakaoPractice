@@ -1,4 +1,5 @@
-﻿using Jamesnet.Wpf.Controls;
+﻿using CommunityToolkit.Mvvm.Input;
+using Jamesnet.Wpf.Controls;
 using System.Windows;
 
 namespace Kakao.Friends.UI.Views

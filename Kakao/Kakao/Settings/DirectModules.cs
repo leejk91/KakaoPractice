@@ -14,9 +14,8 @@ namespace Kakao.Settings
         public void OnInitialized(IContainerProvider containerProvider)
         {
             // Resolve : 이미 관리되고 있는 인스턴스 객체를 가져오고 관리한다.
-            IRegionManager regionManager = containerProvider.Resolve<IRegionManager>();
-
-            regionManager.RegisterViewWithRegion("MainRegion", "LoginContent");
+            //IRegionManager regionManager = containerProvider.Resolve<IRegionManager>();
+            //regionManager.RegisterViewWithRegion("MainRegion", "LoginContent");
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
