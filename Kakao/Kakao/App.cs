@@ -4,18 +4,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Jamesnet;
 using System.Windows;
+using Jamesnet.Wpf.Controls;
 
 namespace Kakao
 {
-    internal class App : Application
+    internal class App : JamesApplication
     {
-        protected override void OnStartup(StartupEventArgs e)
+        protected override Window CreateShell()
         {
-            base.OnStartup(e);
-
-            KakaoWindow window = new();
-            window.Show();
+            return new KakaoWindow();
         }
     }
 }

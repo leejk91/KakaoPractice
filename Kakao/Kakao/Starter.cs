@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kakao.Settings;
+using System;
 
 namespace Kakao
 {
@@ -8,7 +9,10 @@ namespace Kakao
         private static void Main(string[] args)
         {
             // Run이 Void 타입이 아니기 떄문에 _를 앞에 붙여 무시 처리
-            _ = new App().Run();
+            _ = new App()
+                .AddInversionModule<ViewModules>()
+                .AddInversionModule<DirectModules>()
+                .Run();
         }
     }
 }
